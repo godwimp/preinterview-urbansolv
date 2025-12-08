@@ -1,0 +1,25 @@
+{
+  "name": "preinterview-urbansolv",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["gis", "shapefile", "postgis", "backend"],
+  "author": "Fadhillah Maulana",
+  "license": "ISC",
+  "description": "Managing GIS data from shapefiles (CRUD)",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "shapefile": "^0.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
