@@ -39,6 +39,7 @@ CREATE TABLE gis_features (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
+atau kamu bisa set up database langsung pada bagian GUI (DBeaver/pgAdmin)
 
 ### 3. Clone Repository
 
@@ -242,7 +243,7 @@ Hapus semua features dari database
 ## Struktur Project
 
 ```
-urbansolv-backend/
+preinterview-urbansolv/
 ├── src/
 │   ├── config/
 │   │   └── database.js          # Konfigurasi database PostgreSQL
