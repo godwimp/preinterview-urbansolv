@@ -1,6 +1,6 @@
 # UrbanSolv GIS Backend Service (Tugas Pre-Interview)
 
-Backend service untuk mengelola data GIS berbasis shapefile, menggunakan Node.js, Express, PostgreSQL, dan PostGIS.
+Backend service untuk mengelola data GIS berbasis shapefile, menggunakan Node.js, Express, PostgreSQL, dan PostGIS oleh Fadhillah Maulana.
 
 ## Teknologi yang Digunakan
 
@@ -66,7 +66,7 @@ DB_USER=postgres
 DB_PASSWORD=your_password
 ```
 
-Sesuaikan nilai-nilai di atas dengan konfigurasi PostgreSQL anda.
+Sesuaikan tiap parameter dengan konfigurasi PostgreSQL kamu.
 
 ### 6. Jalankan Server
 
@@ -262,19 +262,6 @@ urbansolv-backend/
 └── README.md                    # Dokumentasi
 ```
 
-## Fitur yang Diimplementasikan
-
-- Upload shapefile dalam format ZIP
-- Extract dan konversi shapefile ke GeoJSON
-- Simpan data ke PostgreSQL dengan PostGIS geometry column
-- Read data dalam format GeoJSON FeatureCollection (kompatibel dengan Leaflet, Mapbox, OpenLayers)
-- Update properties feature
-- Update geometry feature (bonus)
-- Delete single feature by ID
-- Delete all features (bonus)
-- Modular code structure
-- Error handling yang baik
-- CORS enabled untuk frontend integration
 
 ## Testing dengan Postman
 
@@ -298,7 +285,7 @@ urbansolv-backend/
 - Pastikan database sudah dibuat
 
 ### Error: "PostGIS extension not found"
-- Jalankan `CREATE EXTENSION postgis;` di database anda
+- Jalankan `CREATE EXTENSION postgis;` di interface database PostgreSQL kamu.
 
 ### Error: "Required shapefile components not found"
 - Pastikan ZIP file berisi .shp dan .dbf
