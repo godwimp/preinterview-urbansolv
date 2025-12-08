@@ -75,12 +75,6 @@ Sesuaikan tiap parameter dengan konfigurasi PostgreSQL kamu.
 npm start
 ```
 
-Atau untuk development dengan auto-reload:
-
-```bash
-npm run dev
-```
-
 Server akan berjalan di `http://localhost:3000`
 
 ## API Endpoints
