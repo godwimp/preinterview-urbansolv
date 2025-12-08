@@ -268,7 +268,7 @@ preinterview-urbansolv/
 
 - Maksimal ukuran file upload: 50MB
 - File upload harus dalam format ZIP
-- ZIP harus berisi minimal file .shp dan .dbf
+- ZIP harus berisi minimal file .shp DAN .dbf (tidak bisa salah satu)
 - Semua geometry disimpan dengan SRID 4326 (WGS84)
 - Response format GeoJSON kompatibel dengan semua map library modern
 
@@ -283,5 +283,5 @@ preinterview-urbansolv/
 - Jalankan `CREATE EXTENSION postgis;` di interface database PostgreSQL kamu.
 
 ### Error: "Required shapefile components not found"
-- Pastikan ZIP file berisi .shp dan .dbf
+- Pastikan ZIP file berisi .shp DAN .dbf
 - Check struktur folder dalam ZIP file
