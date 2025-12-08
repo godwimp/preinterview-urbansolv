@@ -44,7 +44,7 @@ CREATE TABLE gis_features (
 
 ```bash
 git clone <https://github.com/godwimp/preinterview-urbansolv>
-cd urbansolv-backend
+cd preinterview-urbansolv
 ```
 
 ### 4. Install Dependencies
