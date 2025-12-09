@@ -56,16 +56,7 @@ npm install
 
 ### 5. Konfigurasi Environment
 
-Buat file `.env` di root project:
-
-```
-PORT=3000
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=urbansolv_gis
-DB_USER=postgres
-DB_PASSWORD=your_password
-```
+Buat file `.env` di root project berdasarkan file .env.example yang sudah ada, atau juga bisa dengan me-rename `.env.example` menjadi `.env`.
 
 Sesuaikan tiap parameter dengan konfigurasi PostgreSQL kamu.
 
